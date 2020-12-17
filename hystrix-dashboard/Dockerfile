@@ -2,9 +2,7 @@
 # Creates a docker container with a running Hystrix Web App
 #
 
-FROM centos:6
-
-MAINTAINER Marcel Birkner <marcel.birkner@codecentric.de>
+FROM centos:latest
 
 RUN yum -y install java-1.8.0-openjdk
 
